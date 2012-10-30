@@ -35,12 +35,13 @@
         .contacts a {
             color: #00aeff;
             border-bottom: 1px dashed;
+            text-decoration: none;
         }
 /* // header */
 
 /* content */
 .content {
-    padding-top: 22px;
+    padding: 22px 5px 0 5px;
 }
     .h1 {
         text-align: center;
@@ -53,6 +54,16 @@
     .btn-wrap {
         margin: 30px auto 0;
     }
+    .opt {
+        width: 265px;
+        margin: 32px auto 0;
+    }
+        .opt li {
+            margin-bottom: 5px;
+        }
+        .opt li:last-child {
+            display: none;
+        }
 /* // content */
 
 }

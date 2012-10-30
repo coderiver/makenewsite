@@ -48,7 +48,7 @@ body {
     background: #fff;
 }
 a {
-	text-decoration: none;
+	color: #00aeff;
 }
 a:hover {
 	color: #689441;
@@ -99,3 +99,14 @@ a:hover {
 	.badge_new {
 		background: url(../img/badge-new.png) 0 0 no-repeat;
 	}
+.dwnld {
+	display: inline-block;
+	margin: 0 7px;
+	padding-right: 22px;
+}
+.dwnld_word {
+	background: url(../img/word.png) 100% 50% no-repeat;
+}
+.dwnld_pdf {
+	background: url(../img/pdf.png) 100% 50% no-repeat;
+}
