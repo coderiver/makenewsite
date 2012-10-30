@@ -1,5 +1,58 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
 
-    
-    
+/* header */
+.header {
+    margin-bottom: 61px;
+    padding: 7px 5px;
+    height: 91px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    -o-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+    /* logo */
+    .logo {
+        display: block;
+        width: 262px;
+        height: 84px;
+        margin: 0 auto;
+    }
+        .logo img {
+            display: block;
+            width: 262px;
+            height: 84px;
+        }
+    /* contacts */
+    .contacts {
+        margin-top: 24px;
+        text-align: right;
+    }
+        .contacts span {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 30px;
+        }
+        .contacts a {
+            color: #00aeff;
+            border-bottom: 1px dashed;
+        }
+/* // header */
+
+/* content */
+.content {
+    padding-top: 22px;
+}
+    .h1 {
+        text-align: center;
+    }
+    .slogan {
+        padding-top: 23px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .btn-wrap {
+        margin: 30px auto 0;
+    }
+/* // content */
+
 }
