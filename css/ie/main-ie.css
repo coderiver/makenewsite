@@ -1,5 +1,3 @@
-@media only screen and (min-width: 500px) { 
-
 body {
     min-width: 960px;
 }
@@ -88,17 +86,17 @@ body {
     .scroll__ipad {
         margin-top: 40px;
         height: 389px;
-        background: url(../img/ipad.png) 0 0 no-repeat;
+        background: url(../../img/ipad.png) 0 0 no-repeat;
     }
     .scroll__iphone {
         margin-top: 78px;
         height: 348px;
-        background: url(../img/iphone.png) 244px 0 no-repeat;
+        background: url(../../img/iphone.png) 244px 0 no-repeat;
     }
     .scroll__macbook {
         margin-top: 20px;
         height: 427px;
-        background: url(../img/macbook.png) 0 0 no-repeat;
+        background: url(../../img/macbook.png) 0 0 no-repeat;
     }
     .scroll__text {
         float: right;
@@ -151,5 +149,3 @@ body {
         padding: 18px 92px 0 0;
         background-position: 0 18px;
     }
-
-}

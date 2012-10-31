@@ -4,53 +4,140 @@
 	<title>index</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/master.css" media="screen" />
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!-- <meta name="viewport" content="width=device-width"> -->
 	<!--[if lt IE 9]> 
  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+ 		<link rel="stylesheet" href="css/ie/master-ie.css" media="screen" />
 	<![endif]-->
     <script src="js/jquery.tools.min.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
     <script src="js/common.js"></script>
 </head>
 <body>
 <div class="layout">
 	<!-- BEGIN .header -->
 	<header class="header">
-		<a href="#" class="logo"><img src="img/logo.png" alt=""></a>
-		<div class="contacts vcard">
-			<span class="tel">+7 (495) 128-19-44</span>
-			<a href="#">Заказать обратный звонок</a>
+		<div class="l-container">
+			<div class="header__logo"></div>
+			<div class="header__contacts vcard">
+				<span class="tel">+7 (495) 128-19-44</span>
+				<a href="#">Заказать обратный звонок</a>
+			</div>
 		</div>
 	</header>
 	<!-- END .header -->
-	<div class="content">
-		<h1 class="h1">Сделаем новый сайт!</h1>
-		<div class="slogan">
-			Никаких промедлений, время не ждет!
-			Клиенты восхитятся, а конкуренты не успеют оглянуться — Ваш новый сайт будет лучшим!
+	<div class="content l-container">
+		<div class="main">
+			<h1 class="h1">Сделаем новый сайт!</h1>
+			<div class="slogan">
+				<p>Никаких промедлений, время не ждет!</p>
+				<p>Клиенты восхитятся, а конкуренты не успеют оглянуться — Ваш новый сайт будет лучшим!</p>
+			</div>
+			<div class="order">
+				<div class="btn-wrap">
+					<button class="btn btn-new-site">Новый сайт</button>
+					<span class="badge badge_new"></span>
+				</div>
+				<ul class="opt">
+					<li>
+						<span>1</span>
+						Скачайте бриф: 
+						<a href="#" class="dwnld dwnld_word">Word</a>
+						<a href="#" class="dwnld dwnld_pdf">PDF</a>
+					</li>
+					<li>
+						<span>2</span>
+						Отправьте на
+						<a href="mailto:mail@makenewsite.ru">mail@makenewsite.ru</a>
+					</li>
+					<li>
+						<span>3</span>
+						Получите оценку стоимости сайта
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="btn-wrap">
-			<button class="btn">Новый сайт</button>
-			<span class="badge badge_new"></span>
+		<div class="scroll">
+			<div class="scroll__item">
+				<div class="scroll__ipad"></div>
+				<div class="scroll__text">
+					<strong>Exclusive ibiza.ru</strong>
+					<span>Фирменный стиль <i>2011 год</i></span>
+				</div>
+			</div> 
+			<div class="scroll__item">
+				<div class="scroll__iphone"></div>
+				<div class="scroll__text">
+					<strong>Avatrip</strong>
+					<span>Сверхсекретная разработка 2012 год</span>
+				</div>
+			</div>
+			<div class="scroll__item">
+				<div class="scroll__macbook"></div>
+				<div class="scroll__text">
+					<strong>Издательство Эксмо</strong>
+					<span>Интернет-магазин <i>2012 год</i></span>
+				</div>
+			</div>
 		</div>
-		<ul class="opt">
-			<li>
-				Скачайте бриф: 
-				<a href="#" class="dwnld dwnld_word">Word</a>
-				<a href="#" class="dwnld dwnld_pdf">PDF</a>
-			</li>
-			<li>
-				Отправьте на
-				<a href="mailto:mail @ makenewsite.ru">mail @ makenewsite.ru</a>
-			</li>
-			<li>
-				Получите оценку стоимости сайта
-			</li>
-		</ul>
+		<div class="clr"></div>
+		<div class="service-wrap">
+			<ul class="service">
+				<li>Полный цикл разработки</li>
+				<li>Поисковое продвижение и SEO</li>
+				<li>Раскрутка в социальных медиа</li>
+				<li>Разработка фирменного стиля</li>
+			</ul>
+			<ul class="service">
+				<li>Создание мобильных приложений</li>
+				<li>Комплексный маркетинг</li>
+				<li>Консалтинг и аутсорсинг</li>
+				<li>Startup-менеджмент</li>
+			</ul>
+		</div>
+		<div class="clr"></div>
+		<div class="logos">
+			<img src="img/l1.png" alt="">
+			<img src="img/l2.png" alt="">
+			<img src="img/l3.png" alt="">
+			<img src="img/l4.png" alt="">
+			<img src="img/l5.png" alt="">
+			<img src="img/l6.png" alt="">
+			<img src="img/l7.png" alt="">
+		</div>
 	</div>
 	<div class="push"></div>
 </div>
 <footer class="footer">
+	<div class="l-container">
+		<div class="footer__contacts">
+			<span class="tel">+7 (495) 128-19-44</span>
+			<a href="mailto:info@makenewsite.ru">info@makenewsite.ru</a>
+		</div>
+		<div class="footer__info">
+			Техника <i class="logo-apple"></i> любезно предоставлена компанией Mac Master www.mac-master.ru
+		</div>
+		<div class="footer__logo"></div>
+	</div>
 </footer>
+<div class="popup-wrap"></div>
+<div class="popup popup_feedback">
+	<strong>Мы Вам перезвоним</strong>
+	<button class="popup__close"></button>
+	<input class="input" type="text">
+	<input class="input" type="text">
+	<input class="input" type="text">
+	<input type="submit" class="btn btn_s">
+</div>
+<div class="popup popup_order">
+	<strong>Заявка на новый сайт</strong>
+	<button class="popup__close"></button>
+	<input class="input" type="text" placeholder="Ваше имя">
+	<input class="input" type="text" placeholder="Email, телефон или skype">
+	<textarea class="input input_textarea" placeholder="Какой сайт Вам нужен? Чем мы еще можем Вам помочь?"></textarea>
+	<input type="submit" class="btn btn_s">
+</div>
 </body>  
 </html>
