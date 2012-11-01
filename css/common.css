@@ -1,3 +1,30 @@
+@font-face {
+    font-family: 'lobsterregular';
+    src: url('fonts/lobster-webfont.eot');
+    src: url('fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lobster-webfont.woff') format('woff'),
+         url('fonts/lobster-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('fonts/pts55f-webfont.eot');
+    src: url('fonts/pts55f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pts55f-webfont.woff') format('woff'),
+         url('fonts/pts55f-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansitalic';
+    src: url('fonts/pts56f-webfont.eot');
+    src: url('fonts/pts56f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pts56f-webfont.woff') format('woff'),
+         url('fonts/pts56f-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ------------------------------------- Reset css -------------------------------------------- */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5,
 h6, p, blockquote, pre,a, abbr, acronym, address, big,
@@ -43,7 +70,7 @@ table {
 
 /* ------------------------------------- Main styles ------------------------------------------- */
 body {
-    font: normal 16px 'PT Sans', sans-serif;
+    font: normal 16px 'pt_sansregular', sans-serif;
     color: #000;
     background: #fff;
 }
@@ -54,7 +81,7 @@ a:hover {
 	color: #689441;
 }
 .h1 {
-	font: 48px/47px 'Lobster', cursive;
+	font: 48px/47px 'lobsterregular';
 }
 .clr {
   	clear: both;  
@@ -190,16 +217,6 @@ a:hover {
 	    height: 64px;
 	    background: url(../img/logo2.png) 0 0 no-repeat;
 	}
-.test {
-	position: absolute;
-	top: 0;
-	width: 1280px;
-	height: 870px;left: 50%;
-margin-left: -685px;
-	opacity: 0.7;
-	background: url(../img/test.png) 0 0 no-repeat;
-}
-
 .popup-wrap {
     position: fixed;
     z-index: 1000;
@@ -257,7 +274,7 @@ margin-left: -685px;
         height: 26px;
         border: 1px solid;
         color: #55585b;
-        font: normal 13px 'PT Sans', sans-serif;
+        font: normal 13px 'Helvetica', 'pt_sansregular' sans-serif;
         border-color: #acacac #b0b0b0 #d4d4d4 #b0b0b0;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -268,6 +285,8 @@ margin-left: -685px;
         -o-box-shadow: inset 0 1px 2px rgba(0,0,0,0.27);
         box-shadow: inset 0 1px 2px rgba(0,0,0,0.27);
     }
+    .input:-moz-placeholder {color: #55585b;}
+    .input::-webkit-input-placeholder {color: #55585b;}
     .input_textarea {
         padding: 2% 5px;
         min-height: 97px;
@@ -298,4 +317,3 @@ margin-left: -685px;
         margin-bottom: 15px;
         font-size: 24px;
     }
-    /**/

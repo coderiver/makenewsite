@@ -31,7 +31,7 @@ body {
     }
     .header__contacts {
         float: right;
-        padding: 29px 93px 0 0;
+        padding: 33px 93px 0 0;
         text-align: right;
     }
         .header__contacts span {
@@ -46,13 +46,13 @@ body {
     padding-top: 75px;
 }
     .slogan {
-        padding-top: 20px;
-        font: italic 18px/24px 'PT Sans', sans-serif;
-        padding-right: 65px;
+        padding-top: 22px;
+        font: italic 18px/24px 'pt_sansitalic', sans-serif;
+        padding-right: 88px;
     }
     .order {
         overflow: hidden;
-        padding: 28px 0 0 28px;
+        padding: 25px 0 0 28px;
     }
         .btn-wrap {
             float: left;
@@ -86,12 +86,12 @@ body {
     width: 490px;
 }
     .scroll__ipad {
-        margin-top: 40px;
+        margin-top: 44px;
         height: 389px;
         background: url(../img/ipad.png) 0 0 no-repeat;
     }
     .scroll__iphone {
-        margin-top: 78px;
+        margin: 78px 0 5px;
         height: 348px;
         background: url(../img/iphone.png) 244px 0 no-repeat;
     }
@@ -112,12 +112,12 @@ body {
 .service-wrap {
     float: right;
     overflow: hidden;
-    margin: -131px 0 0 0;
+    margin: -128px 0 0 0;
     padding-right: 67px;
 }
     .service {
         float: left;
-        padding-right: 31px;
+        padding-right: 21px;
     }
 .logos {
     margin: 57px 0 10px 0;
